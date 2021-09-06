@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BookStore</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css" />
+</head>
+
+<body>
+  <div class="row">
+
+    <div class="card large ">
+
+      <h1>BOOKSTORE</h1>
+
+      <input type="text" placeholder="Type Book ID..." id="idNum" />
+      <button id="btnid">Search by Book ID </button>
+      <input type="text" placeholder="Type Book Title..." id="bookT" />
+      <button id="btntitle">Search by Book Title</button>
+      <input type="text" placeholder="Type Book Author..." id="bookA" />
+      <button id="btnauthor">Search by Author Name</button>
+      <h4>Result : </h4>
+      <p> <output id="result"></output><br /></p>
+    </div>
+
+    <div class="card large">
+      <div class="row ">
+        <input type="text" placeholder="Type Book Title..." id="bookname" />
+        <input type="text" placeholder="Type Book Quantity..." id="bookQ" />
+        <input type="text" placeholder="Balance ..." id="balance" />
+        <button id="btnbuy">Buy Book</button>
+        <p><output id="bookavail"></output></p>
+      </div>
+
+      <div class="col ">
+        <h4>invoice</h4>
+        <p><output id="name"></output></p>
+        <p><output id="amount"></output></p>
+        <p><output id="price"></output></p>
+        <button id="btninvoice"> genrate invoice</button>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  <footer>
+    <p>BOOKSTORE 2021</p>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
